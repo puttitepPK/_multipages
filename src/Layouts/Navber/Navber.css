@@ -1,0 +1,9 @@
+.navber-container{
+    display: flex;             /*.ให้เรียง*/
+    justify-content: center;  /*ให้อยู่ตรงกลาง*/
+    gap: 1rem;       /*ระยะห่าง*/
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(133, 133, 133);
+}
