@@ -1,0 +1,78 @@
+.home-container {
+    width: 1030px;
+    height: 650px;
+    margin: 0 auto; /* จัดกึ่งกลางบนหน้า */
+    background-color: #4f58da; /* สีพื้นหลังอ่อน */
+    border-radius: 15px; /* มุมโค้งมน */
+    border: 1px solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* เงาที่ด้านหลังกล่อง */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inner-border {
+    width: 1020px;
+    height: 640px;
+    border: 1px solid #000000; /* เส้นขอบชั้นใน */
+    border-radius: 10px; /* มุมโค้งมน */
+    margin-top: 4px;
+    background-image: url(backprofile.jpg);
+    background-size: cover;              /* ปรับขนาดรูปภาพให้เต็มพื้นที่ */
+    background-repeat: no-repeat;          /* ป้องกันการซ้ำของรูปภาพ */
+    background-position: center;          /* จัดรูปให้อยู่ตรงกลาง */
+  }
+
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: row; /* จัดเรียงในแนวนอน */
+    align-items: center;
+    justify-content: flex-start; /* จัดองค์ประกอบให้อยู่ชิดซ้าย */
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+
+  }
+  
+  .title1 {
+    margin-right: 50px; /* เพิ่มระยะห่างระหว่างรูปภาพและข้อมูล */
+    margin-left: 20px;
+
+  }
+  
+  .profile-image {
+    width: 350px;
+    height: 410px;
+    border-radius: 50px; /* ทำให้รูปภาพเป็นวงกลม */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* เงาที่รูปภาพ */
+    background-color: rgb(255, 227, 242);
+  }
+  
+  .tit1-1 {
+    text-align: left; /* จัดข้อความชิดซ้าย */
+    color: #333;
+    margin-top: -20px;
+  }
+  
+  .tit2-2 {
+    text-align: left;
+    color: #333;
+    width: 900px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin-left: 60px;
+    background-color: rgb(234, 247, 252);
+    padding: 8px;
+    margin-top: 5px; /* เพิ่มระยะห่างระหว่างคำอธิบายและข้อมูลด้านบน */
+  }
+  
+  h3 {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #542a8a; /* สีฟ้าที่เน้นข้อความ */
+  }
+  
